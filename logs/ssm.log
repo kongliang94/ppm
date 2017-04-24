@@ -1,0 +1,316 @@
+[INFO] [2017-01-06 12:58:06][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25595f51: startup date [Fri Jan 06 12:58:06 CST 2017]; root of context hierarchy
+[INFO] [2017-01-06 12:58:06][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [cn/panasonic/ppm/spring/applicationContext.xml]
+[INFO] [2017-01-06 12:58:07][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [cn/panasonic/ppm/spring/applicationContext-db.xml]
+[INFO] [2017-01-06 12:58:08][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-01-06 12:58:09][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43a6684f: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,transactionManager,hibernateTemplate,departmentAction,projectStageAction,projectValueAction,userAction,departmentDao,projectStageDao,projectValueDao,userDao,departmentService,projectStageService,projectValueService,userService,approveAction,fileAction,loginAction,projectAction,approveDao,fileDao,projectDao,approveService,fileService,projectService,roleDao,roleService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO] [2017-01-06 12:58:09][org.hibernate.annotations.common.Version]Hibernate Commons Annotations 3.2.0.Final
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Environment]Hibernate 3.6.10.Final
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Environment]hibernate.properties not found
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Environment]Bytecode provider name : javassist
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Environment]using JDK 1.4 java.sql.Timestamp handling
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\Department.hbm.xml
+[WARN] [2017-01-06 12:58:09][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\ProjectStage.hbm.xml
+[WARN] [2017-01-06 12:58:09][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\ProjectValue.hbm.xml
+[WARN] [2017-01-06 12:58:09][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\User.hbm.xml
+[WARN] [2017-01-06 12:58:09][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:09][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\Approve.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\Project.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\ResultFile.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Menuitem.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Privilege.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Role.hbm.xml
+[WARN] [2017-01-06 12:58:10][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.Department -> p_department
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.ProjectStage -> p_projectstage
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.ProjectValue -> p_projectvalue
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.User -> p_user
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.User.roles -> user_role
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.Approve -> p_approve
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.Project -> p_project
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.ResultFile -> p_resultfile
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Menuitem -> Menuitem
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Privilege -> Privilege
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Privilege.roles -> role_privilege
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Role -> p_role
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Role.users -> user_role
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Role.privileges -> role_privilege
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.Department.users -> p_user
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.Department.projects -> p_project
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.ProjectStage.projects -> p_project
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.ProjectValue.projects -> p_project
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.User.projects -> p_project
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.Configuration]Hibernate Validator not found: ignoring
+[INFO] [2017-01-06 12:58:10][org.springframework.orm.hibernate3.LocalSessionFactoryBean]Building new Hibernate SessionFactory
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.search.HibernateSearchEventListenerRegister]Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[INFO] [2017-01-06 12:58:10][org.hibernate.connection.ConnectionProviderFactory]Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO] [2017-01-06 12:58:10][org.hibernate.dialect.Dialect]Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO] [2017-01-06 12:58:10][org.hibernate.engine.jdbc.JdbcSupportLoader]Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.SettingsFactory]Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+[INFO] [2017-01-06 12:58:10][org.hibernate.cfg.SettingsFactory]Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.25 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+[INFO] [2017-01-06 12:58:11][org.hibernate.transaction.TransactionFactoryFactory]Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO] [2017-01-06 12:58:11][org.hibernate.transaction.TransactionManagerLookupFactory]No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Automatic flush during beforeCompletion(): disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Automatic session close at end of transaction: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]JDBC batch size: 15
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]JDBC batch updates for versioned data: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Scrollable result sets: enabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]JDBC3 getGeneratedKeys(): enabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Connection release mode: auto
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Maximum outer join fetch depth: 2
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Default batch fetch size: 1
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Generate SQL with comments: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Order SQL updates by primary key: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Order SQL inserts for batching: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] [2017-01-06 12:58:11][org.hibernate.hql.ast.ASTQueryTranslatorFactory]Using ASTQueryTranslatorFactory
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Query language substitutions: {}
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]JPA-QL strict compliance: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Second-level cache: enabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Query cache: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Optimize cache for minimal puts: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Structured second-level cache entries: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Echoing all SQL to stdout
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Statistics: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Deleted entity synthetic identifier rollback: disabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Default entity-mode: pojo
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Named query checking : enabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.cfg.SettingsFactory]Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[INFO] [2017-01-06 12:58:11][org.hibernate.impl.SessionFactoryImpl]building session factory
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@530d0eae
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@7e3eec1a
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [clob] overrides previous : org.hibernate.type.ClobType@54fedfb6
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@54fedfb6
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@29115152
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@2ff1f38e
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [blob] overrides previous : org.hibernate.type.BlobType@35ad0839
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@35ad0839
+[INFO] [2017-01-06 12:58:11][org.hibernate.type.BasicTypeRegistry]Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@72f6f1b6
+[INFO] [2017-01-06 12:58:11][org.hibernate.impl.SessionFactoryObjectFactory]Not binding factory to JNDI, no JNDI name configured
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.SchemaUpdate]Running hbm2ddl schema update
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.SchemaUpdate]fetching database metadata
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.SchemaUpdate]updating schema
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.menuitem
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, icon, name, pid, mid]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.privilege
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, id, icon, description, name, target, pid, type, url]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_approve
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, id, remark, status, stageid, onlynum]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk3b3b3a7ed6b34bce]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary, fk3b3b3a7ed6b34bce]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_department
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [description, name, did]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_project
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, status, freshdate, sum, did, pid, number, mark, round, onlynum, id, flag, description, name, vid]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk5810824a28659144, fk5810824aee0d533, fk5810824ad6b34bce, fk5810824af045e9c]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk5810824a28659144, fk5810824ad6b34bce, fk5810824aee0d533, primary, fk5810824af045e9c]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_projectstage
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, description, name, stageid]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_projectvalue
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [description, vid]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_resultfile
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, filepath, logonname, filename, uploaddate, stageid, onlynum]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_role
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, rid, name, pid]
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:11][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_user
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, approvemark, phone, username, email, logonname, did, logonpwd, dutyid]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fkc4906a3a28659144]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fkc4906a3a28659144, primary]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.role_privilege
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, rid]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk45fbd6284621742f, fk45fbd6286dced740]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk45fbd6284621742f, fk45fbd6286dced740, primary]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.user_role
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, rid]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk143bf46a6dced740, fk143bf46ad6b34bce]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk143bf46a6dced740, primary, fk143bf46ad6b34bce]
+[INFO] [2017-01-06 12:58:12][org.hibernate.tool.hbm2ddl.SchemaUpdate]schema update complete
+[INFO] [2017-01-06 12:58:12][org.springframework.orm.hibernate3.HibernateTransactionManager]Using DataSource [org.apache.commons.dbcp.BasicDataSource@4a690247] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO] [2017-01-06 12:58:48][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25595f51: startup date [Fri Jan 06 12:58:48 CST 2017]; root of context hierarchy
+[INFO] [2017-01-06 12:58:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [cn/panasonic/ppm/spring/applicationContext.xml]
+[INFO] [2017-01-06 12:58:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [cn/panasonic/ppm/spring/applicationContext-db.xml]
+[INFO] [2017-01-06 12:58:49][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-01-06 12:58:49][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43a6684f: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,transactionManager,hibernateTemplate,departmentAction,projectStageAction,projectValueAction,userAction,departmentDao,projectStageDao,projectValueDao,userDao,departmentService,projectStageService,projectValueService,userService,approveAction,fileAction,loginAction,projectAction,approveDao,fileDao,projectDao,approveService,fileService,projectService,roleDao,roleService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO] [2017-01-06 12:58:49][org.hibernate.annotations.common.Version]Hibernate Commons Annotations 3.2.0.Final
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Environment]Hibernate 3.6.10.Final
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Environment]hibernate.properties not found
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Environment]Bytecode provider name : javassist
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Environment]using JDK 1.4 java.sql.Timestamp handling
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\Department.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\ProjectStage.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\ProjectValue.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\basedata\User.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\Approve.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\Project.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\business\ResultFile.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Menuitem.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Privilege.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Reading mappings from file: D:\myeclipse\workspace\ppm\target\classes\cn\panasonic\ppm\domain\privilege\Role.hbm.xml
+[WARN] [2017-01-06 12:58:49][org.hibernate.util.DTDEntityResolver]recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.Department -> p_department
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.ProjectStage -> p_projectstage
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.ProjectValue -> p_projectvalue
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.basedata.User -> p_user
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.User.roles -> user_role
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.Approve -> p_approve
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.Project -> p_project
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.business.ResultFile -> p_resultfile
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Menuitem -> Menuitem
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Privilege -> Privilege
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Privilege.roles -> role_privilege
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping class: cn.panasonic.ppm.domain.privilege.Role -> p_role
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Role.users -> user_role
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.privilege.Role.privileges -> role_privilege
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.Department.users -> p_user
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.Department.projects -> p_project
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.ProjectStage.projects -> p_project
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.ProjectValue.projects -> p_project
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.HbmBinder]Mapping collection: cn.panasonic.ppm.domain.basedata.User.projects -> p_project
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.Configuration]Hibernate Validator not found: ignoring
+[INFO] [2017-01-06 12:58:49][org.springframework.orm.hibernate3.LocalSessionFactoryBean]Building new Hibernate SessionFactory
+[INFO] [2017-01-06 12:58:49][org.hibernate.cfg.search.HibernateSearchEventListenerRegister]Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[INFO] [2017-01-06 12:58:49][org.hibernate.connection.ConnectionProviderFactory]Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO] [2017-01-06 12:58:50][org.hibernate.dialect.Dialect]Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO] [2017-01-06 12:58:50][org.hibernate.engine.jdbc.JdbcSupportLoader]Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Database ->
+       name : MySQL
+    version : 5.0.18-nt
+      major : 5
+      minor : 0
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.25 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+[INFO] [2017-01-06 12:58:50][org.hibernate.transaction.TransactionFactoryFactory]Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO] [2017-01-06 12:58:50][org.hibernate.transaction.TransactionManagerLookupFactory]No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Automatic flush during beforeCompletion(): disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Automatic session close at end of transaction: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]JDBC batch size: 15
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]JDBC batch updates for versioned data: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Scrollable result sets: enabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]JDBC3 getGeneratedKeys(): enabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Connection release mode: auto
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Maximum outer join fetch depth: 2
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Default batch fetch size: 1
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Generate SQL with comments: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Order SQL updates by primary key: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Order SQL inserts for batching: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] [2017-01-06 12:58:50][org.hibernate.hql.ast.ASTQueryTranslatorFactory]Using ASTQueryTranslatorFactory
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Query language substitutions: {}
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]JPA-QL strict compliance: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Second-level cache: enabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Query cache: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Optimize cache for minimal puts: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Structured second-level cache entries: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Echoing all SQL to stdout
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Statistics: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Deleted entity synthetic identifier rollback: disabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Default entity-mode: pojo
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Named query checking : enabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.cfg.SettingsFactory]Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[INFO] [2017-01-06 12:58:50][org.hibernate.impl.SessionFactoryImpl]building session factory
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@d694eca
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@7cb3b6a6
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [blob] overrides previous : org.hibernate.type.BlobType@7a9c8c3f
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@7a9c8c3f
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [clob] overrides previous : org.hibernate.type.ClobType@3bbbbafc
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@3bbbbafc
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@21f11507
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@5a9b8ff9
+[INFO] [2017-01-06 12:58:50][org.hibernate.type.BasicTypeRegistry]Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1b0952e8
+[INFO] [2017-01-06 12:58:50][org.hibernate.impl.SessionFactoryObjectFactory]Not binding factory to JNDI, no JNDI name configured
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.SchemaUpdate]Running hbm2ddl schema update
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.SchemaUpdate]fetching database metadata
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.SchemaUpdate]updating schema
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.menuitem
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, icon, name, pid, mid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.privilege
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, id, icon, description, name, target, pid, type, url]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_approve
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, id, remark, status, stageid, onlynum]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk3b3b3a7ed6b34bce]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary, fk3b3b3a7ed6b34bce]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_department
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [description, name, did]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_project
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, status, freshdate, sum, did, pid, number, mark, round, onlynum, id, flag, description, name, vid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk5810824a28659144, fk5810824aee0d533, fk5810824ad6b34bce, fk5810824af045e9c]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk5810824a28659144, fk5810824ad6b34bce, fk5810824aee0d533, primary, fk5810824af045e9c]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_projectstage
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, description, name, stageid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_projectvalue
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [description, vid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_resultfile
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, filepath, logonname, filename, uploaddate, stageid, onlynum]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_role
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [isparent, rid, name, pid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: []
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.p_user
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, approvemark, phone, username, email, logonname, did, logonpwd, dutyid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fkc4906a3a28659144]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fkc4906a3a28659144, primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.role_privilege
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [id, rid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk45fbd6284621742f, fk45fbd6286dced740]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk45fbd6284621742f, fk45fbd6286dced740, primary]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]table found: pproject.user_role
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]columns: [uid, rid]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]foreign keys: [fk143bf46a6dced740, fk143bf46ad6b34bce]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.TableMetadata]indexes: [fk143bf46a6dced740, primary, fk143bf46ad6b34bce]
+[INFO] [2017-01-06 12:58:50][org.hibernate.tool.hbm2ddl.SchemaUpdate]schema update complete
+[INFO] [2017-01-06 12:58:50][org.springframework.orm.hibernate3.HibernateTransactionManager]Using DataSource [org.apache.commons.dbcp.BasicDataSource@2c704cf5] of Hibernate SessionFactory for HibernateTransactionManager

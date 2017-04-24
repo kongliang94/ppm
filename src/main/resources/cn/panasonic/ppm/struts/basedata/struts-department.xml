@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="department" namespace="/" extends="struts-default">
+		<action name="departmentAction_*" method="{1}" class="departmentAction">
+			<result name="listAction">WEB-INF/jsp/ppm/basedata/department/listdep.jsp</result>
+			<result name="updateUI">WEB-INF/jsp/ppm/basedata/department/view.jsp</result>
+			<result name="action2action" type="redirectAction">departmentAction_showPageResult.action</result>
+		</action>
+	</package>
+</struts>

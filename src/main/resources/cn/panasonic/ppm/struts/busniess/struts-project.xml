@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="project" namespace="/" extends="struts-default">
+		<action name="projectAction_*" method="{1}" class="projectAction">
+			
+			<result name="ownproject">WEB-INF/jsp/ppm/busniess/project/ownlistpro.jsp</result>
+			<result name="listAction">WEB-INF/jsp/ppm/busniess/project/listpro.jsp</result>
+			<result name="addUI">WEB-INF/jsp/ppm/busniess/project/addProject.jsp</result>
+			<result name="updateUI">WEB-INF/jsp/ppm/busniess/project/update.jsp</result>
+			<result name="updatea">WEB-INF/jsp/ppm/busniess/project/update.jsp</result>
+			<result name="action2action" type="redirectAction">projectAction_showPageResult.action</result>
+			
+			<result name="uploadUI">WEB-INF/jsp/ppm/busniess/project/upload11.jsp</result>
+			
+			<result name="appointnum">WEB-INF/jsp/ppm/busniess/appointnum/listpro.jsp</result>
+			<result name="appointUI">WEB-INF/jsp/ppm/busniess/appointnum/appointnum.jsp</result>
+			<result name="appointaction2action" type="redirectAction">projectAction_showAppointNumPageResult.action</result>
+			
+			<result name="appointuser">WEB-INF/jsp/ppm/busniess/appointuser/listpro.jsp</result>
+			<result name="appointUserUI">WEB-INF/jsp/ppm/busniess/appointuser/appointuser.jsp</result>
+			
+			
+			<result name="approvepro">/WEB-INF/jsp/ppm/busniess/approve/listpro.jsp</result>
+			<result name="approveUI">/WEB-INF/jsp/ppm/busniess/approve/approve.jsp</result>
+			<result name="approveProject" type="redirectAction">projectAction_showApproveProjectList.action</result>
+			
+		</action>
+	</package>
+</struts>
